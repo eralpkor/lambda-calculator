@@ -21,10 +21,15 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
+        
         <Display />
-        <Numbers />
-        <Operators />
-        <Specials />
+        <div className="allButtons">
+          <Specials />
+          <Numbers />
+          <Operators />
+        </div>
+        
+        
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>

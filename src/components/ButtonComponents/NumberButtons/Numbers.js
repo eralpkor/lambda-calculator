@@ -12,7 +12,7 @@ const Numbers = () => {
 
   // console.log(useState(numbers));
   return (
-    <div>
+    <div className="numbersContainer">
       {numberState.map(nums => <NumberButton key={nums} num={nums} />)}
      
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
