@@ -1,5 +1,38 @@
 .container {
-  width: 500px;
+  width: 400px;
   display: flex;
   flex-direction: column;
+  background: crimson;
+  border-radius: 25px;
+}
+
+.display {
+  width: inherit;
+  height: 50px;
+  margin: 0 20px;
+  background: #302727;
+  color: aliceblue;
+  border-radius: 50px;
+  padding: 0 20px;
+  text-align: right;
+}
+
+.numberButton {
+  background: #113c78;
+  color: white;
+  border: 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 5px 5px 5px black;
+  margin: 5px;
+}
+
+.operatorButton {
+  background: #2061b0;
+  color: white;
+}
+
+.specialButton {
+  
 }
