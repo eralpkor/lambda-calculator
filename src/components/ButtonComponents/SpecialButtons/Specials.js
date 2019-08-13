@@ -10,7 +10,7 @@ const Specials = () => {
   const [state, setstate] = useState(specials);
 
   return (
-    <div>
+    <div className="specials">
       {state.map(special => <SpecialButton key={special} unicorn={special} />)}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass

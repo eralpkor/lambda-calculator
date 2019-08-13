@@ -24,8 +24,11 @@ function App() {
         
         <Display />
         <div className="allButtons">
+          <div className="specialsNumbers">
           <Specials />
           <Numbers />
+          </div>
+          
           <Operators />
         </div>
         
